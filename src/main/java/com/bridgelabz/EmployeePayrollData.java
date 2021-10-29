@@ -33,6 +33,6 @@ public class EmployeePayrollData {
         EmployeePayrollData that = (EmployeePayrollData) o;
         return id == that.id &&
                 Double.compare(that.salary, salary) == 0 &&
-                Objects.equals(name, that.name) && Objects.equals(start, that.start);
+                Objects.equals(name, that.name);
     }
 }
